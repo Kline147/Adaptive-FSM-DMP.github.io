@@ -1,0 +1,68 @@
+a[href="https://kline147.github.io/Adaptive-FSM-DMP.github.io/"] {
+    display: none !important;
+}
+/* 行容器样式 */
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+/* GIF 部分容器样式 */
+.gif-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* GIF 行样式 */
+.gif-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* 单个 GIF 样式 */
+.single-gif {
+    width: 50%;
+    height: auto;
+}
+
+/* 视频行容器样式 */
+.video-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* 单个视频样式 */
+.single-video {
+    width: 80%; /* 可按需调整视频宽度 */
+    height: auto;
+}
+
+
+/* 定义实验部分标题样式 */
+.experiment-title {
+    background-color: #c6d2ff;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* 定义机械臂部分标题样式 */
+.arm-title {
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* 定义视频部分标题样式 */
+.video-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
